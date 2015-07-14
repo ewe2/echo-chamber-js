@@ -602,8 +602,8 @@ var EchoChamber = (function (window, undefined) {
   var EchoChamber = window.EchoChamber || {};
 
   var hosts = {
-    local: 'http://widget.dev/src',
-    prod: 'https://s3.amazonaws.com/echochamberjs/dist'
+    local: 'http://localhost/~ewe2/echo-chamber-js',
+    prod: 'https://ewe2.ninja/ec'
   }
 
   EchoChamber.host = hosts.local;
